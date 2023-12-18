@@ -1,0 +1,521 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-image: url('file:///C:/Users/amanu/Desktop/Webtech/Day%2011/LimeJungle/images/background.jpg');
+  background-size: cover;
+}
+
+/* Outer css */
+#outer {
+  width: 1080px;
+  height: 1900px;
+  margin: 0px auto;
+  //border: 1px solid;
+}
+#heading {
+  height: 120px;
+  width: 500px;
+
+  /* heading end here */
+}
+/* Nav starts here */
+#nav {
+  height: 60px;
+  width: 1080px;
+  background-color: white;
+  border-radius: 30px 30px 0px 0px;
+}
+#nav ul {
+  list-style-type: none;
+  height: 60px;
+  float: left;
+}
+#nav ul li {
+  display: inline-block;
+  //margin-left: 10px;
+  font-size: 42px;
+  height: 60px;
+  border-right: 1px solid rgb(207, 206, 206);
+  padding-right: 30px;
+  padding-left: 30px;
+}
+#nav ul li a {
+  margin-top: 13px;
+  display: inline-block;
+  text-decoration: none;
+  color: gray;
+  font-size: 20px;
+}
+#nav ul li:hover {
+  background-color: greenyellow;
+}
+#nav ul li a:hover {
+  color: black;
+}
+#nav ul #home:hover {
+  background-color: greenyellow;
+  border-radius: 30px 0px 0px 0px;
+}
+#nav ul li a:active {
+  color: yellow;
+}
+
+input {
+  padding-left: 20px;
+  border-radius: 5px;
+}
+/* Nav ends */
+
+/* Sofa css starts */
+#sofaimage {
+  height: 300px;
+  width: 1080px;
+  margin-top: 10px;
+}
+
+/* Sofa ends */
+
+/* Main css starts */
+#main {
+  height: 1000px;
+  width: 1080px;
+
+  margin-top: 10px;
+}
+
+/* Main left css starts */
+#mainleft {
+  height: 1000px;
+  width: 750px;
+  float: left;
+
+  background-color: white;
+  border-radius: 0px 0px 0px 30px;
+}
+#templatelicense {
+  font-size: 30px;
+  margin-left: 30px;
+  margin-top: 40px;
+}
+#date {
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#girlimage {
+  height: 230px;
+  width: 700px;
+
+  margin-top: 30px;
+  margin-left: 30px;
+}
+#faltu1 {
+  height: 150px;
+  width: 700px;
+  margin-top: 10px;
+  margin-left: 30px;
+  line-height: 1.5;
+}
+#laptop {
+  height: 40px;
+  width: 400px;
+  margin-top: 30px;
+  margin-left: 30px;
+  font-size: 25px;
+}
+#mainbottom {
+  margin-left: 30px;
+  height: 300px;
+  width: 680px;
+}
+#bottomdown {
+  height: 90px;
+  width: 750px;
+}
+#one {
+  height: 50px;
+  width: 100px;
+  float: left;
+  color: gray;
+  margin-top: 20px;
+  margin-left: 30px;
+}
+#two {
+  height: 50px;
+  width: 100px;
+  float: right;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+.btn {
+  height: 25px;
+  width: 25px;
+  background-color: greenyellow;
+  border: none;
+  cursor: pointer;
+}
+/* Main left ends*/
+
+/* Main rights starts */
+#mainright {
+  height: 1000px;
+  width: 330px;
+  float: right;
+  background-color: rgb(226, 235, 218);
+  border-radius: 0px 0px 30px 0px;
+}
+.righttext {
+  margin-left: 30px;
+  margin-top: 40px;
+  font-size: 30px;
+  font-weight: lighter;
+}
+.ulright {
+  list-style-type: none;
+  margin-left: 30px;
+  margin-top: 20px;
+  width: 250px;
+}
+.ulright li {
+  font-size: 20px;
+  padding-bottom: 20px;
+}
+.ulright li a {
+  text-decoration: none;
+  color: black;
+}
+.ulright li a:hover {
+  color: yellow;
+}
+/* Main right ends here */
+
+/* Footer starts */
+#footer {
+  height: 350px;
+  width: 1080px;
+  background-color: white;
+  border-radius: 30px 30px 30px 30px;
+  margin-top: 20px;
+}
+#imagegallery {
+  height: 250px;
+  width: 350px;
+  //border: 1px solid;
+  float: left;
+  margin-left: 30px;
+  margin-top: 30px;
+}
+.img1 {
+  height: 90px;
+
+  margin-top: 15px;
+  width: 350px;
+}
+.innerimg {
+  height: 90px;
+  width: 90px;
+  float: left;
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  margin: 2px;
+}
+.innerimg img {
+  height: 80px;
+  width: 80px;
+  margin-top: 5px;
+  margin-left: 5px;
+}
+#about {
+  height: 250px;
+  width: 310px;
+  float: left;
+  margin-left: 20px;
+
+  margin-top: 30px;
+}
+#about p {
+  font-size: 15px;
+  line-height: 1.5;
+  text-align: justify;
+  margin-top: 30px;
+}
+#contact {
+  height: 250px;
+  width: 300px;
+  float: left;
+  margin-top: 30px;
+  margin-left: 40px;
+}
+#contact #c1 {
+  margin-top: 30px;
+  color: gray;
+  font-size: 15px;
+}
+#contact #c2 {
+  margin-top: 10px;
+  color: greenyellow;
+  text-decoration: underline;
+  font-size: 15px;
+}
+#contact .c3 {
+  margin-top: 10px;
+  color: gray;
+  font-size: 15px;
+}
+address {
+  margin-top: 30px;
+  color: gray;
+}
+
+/* Copyright section starts */
+#copyrightsection{
+  margin-top: 20px;
+  height: 50px;
+  width: 1080px;
+
+  
+
+}
+#copyrightsection #p11{
+  color: black;
+  float: left;
+  margin-left: 10px;
+
+}
+#copyrightsection #p2{
+  color: black;
+  float: right;
+  margin-right: 10px;
+}
+
+/* Footer ends here */
+
+/* About us section starts */
+#mainleft #aboutme {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: b;
+}
+#whoami {
+  margin-left: 280px;
+  margin-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: green;
+}
+#dev {
+  height: 330px;
+  width: 330px;
+  margin: auto;
+  margin-top: 40px;
+  overflow: hidden;
+  border: 5px solid green;
+  border-radius: 100%;
+}
+#dev img {
+  height: 330px;
+  width: 360px;
+  margin-left: -10px;
+  // border: 5px solid green;
+}
+#p1 {
+  text-align: center;
+  margin-top: 40px;
+  font-family: cursive;
+  line-height: 2;
+}
+.p2 {
+  text-align: center;
+  font-family: cursive;
+  line-height: 2;
+}
+#aboutlink {
+  height: 200px;
+  width: 300px;
+
+  margin: auto;
+  margin-top: 40px;
+}
+#aboutlink ul {
+  list-style-type: none;
+}
+#aboutlink ul li {
+  text-align: center;
+  margin-bottom: 20px;
+  padding: 5px;
+  background-color: greenyellow;
+}
+#aboutlink ul li a {
+  text-decoration: none;
+  color: green;
+}
+#aboutlink ul li:hover {
+  background-color: black;
+}
+#aboutlink ul li:active {
+  background-color: yellow;
+}
+/* Css for about end */
+
+/* css for regiter starts */
+
+#reg {
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 40px;
+  color: green;
+}
+#mainleft form input {
+  display: block;
+  font-size: 15px;
+  height: 40px;
+
+  margin: auto;
+  margin-top: 50px;
+  width: 450px;
+  border: none;
+  border: 2px solid greenyellow;
+  outline: none;
+  border-radius: 10px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#dt1 {
+  color: gray;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#mainleft .btn2 {
+  margin-top: 50px;
+  height: 60px;
+  width: 300px;
+  margin-left: 230px;
+  font-size: 25px;
+  font-weight: bold;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-image: linear-gradient(
+    to left,
+    rgb(146, 191, 106),
+    rgb(60, 106, 124)
+  );
+  color: white;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+}
+
+#mainleft h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: lighter;
+  color: gray;
+  text-align: center;
+  margin-top: 30px;
+}
+#social {
+  height: 60px;
+  width: 750px;
+ // border: 1px solid;
+  margin-top: 30px;
+}
+#google {
+  height: 50px;
+  width: 120px;
+ // border: 1px solid;
+  float: left;
+  margin-left: 220px;
+  background-color: white;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px greenyellow;
+}
+#facebook {
+  height: 50px;
+  width: 120px;
+  float: right;
+  //border: 1px solid;
+  margin-right: 220px;
+  border-radius: 20px;
+  box-shadow: 1px 1px 2px greenyellow;
+}
+#google img {
+  height: 40px;
+  width: 40px;
+  margin-left: 40px;
+  margin-top: 4px;
+}
+#facebook img {
+  height: 40px;
+  width: 40px;
+  margin-left: 40px;
+  margin-top: 6px;
+}
+/* Register css end here */
+
+/* Login css stars */
+#green1{
+  height: 300px;
+  width: 750px;
+  background-image: linear-gradient(greenyellow ,rgb(40, 202, 40) 50%);
+}
+#green1 h2{
+  color: rgb(255, 255, 255);
+  text-align: center;
+  position: relative;
+  top: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+
+}
+#green1 p{
+  width: 450px;
+  margin-top: 50px;
+  text-align: center;
+  margin-left: 150px;
+}
+#greencircle{
+  height: 200px;
+  width: 200px;
+  background-color: white;
+  border: 10px solid rgb(40, 202, 40);
+  margin: auto;
+  border-radius: 100%;
+  margin-top: -130px;
+}
+#checkb{
+  height: 50px;
+  width: 750px;
+  margin-top: 50px;
+  
+}
+#checkb input{
+  float: left;
+  margin-left: 140px;
+  cursor: pointer;
+  margin-top: 10px;
+  
+}
+#checkb a{
+  float: right;
+  margin-right: 140px;
+  color: green;
+  margin-top: 10px;
+}
+/* Contacts us css starts */
+input.largebox{
+  height: 20px;
+  width: 20px;
+}
+#checkb p{
+ float: left;
+ margin-top: 10px;
+ margin-left: 10px;
+ color: green;
+
+}
+textarea{
+  border: 1px solid greenyellow;
+  margin-left: 140px;
+  margin-top: 50px;
+  width: 472px;
+  height: 110px;
+}
+/* Contact us css end */
+
