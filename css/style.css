@@ -3,7 +3,7 @@
   padding: 0;
 }
 body {
-  background-image: url('file:///C:/Users/amanu/Desktop/Webtech/Day%2011/LimeJungle/images/background.jpg');
+  background-image: url('/images/background.jpg');
   background-size: cover;
 }
 
